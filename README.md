@@ -85,10 +85,13 @@ The following steps are performed:
 
 ## Examples
 
+### Beginning of the training
 <p align="center">
 <img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/train.png"/>
 </p>
 
+
+### Streaming of the predictions
 <p align="center">
 <img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/predict.png"/>
 </p>
