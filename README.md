@@ -80,3 +80,15 @@ The following steps are performed:
     docker compose up -d
     python mybci.py --subject=<subject_number> predict_all
     ```
+
+
+
+## Examples
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/train.png"/>
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/predict.png"/>
+</p>
