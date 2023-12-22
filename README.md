@@ -51,6 +51,14 @@ The following steps are performed:
     pip install -r requirements.txt
     ```
 
+-   **Modify this line in BrainComputerInterface.py so that it points to the Physionet dataset folder on your computer:**
+
+    ```python
+            mne.set_config(
+            "MNE_DATASETS_EEGBCI_PATH", "/mnt/nfs/homes/jsemel/sgoinfre/mne_data"
+        )
+    ```
+
 -   **Find the best model and train it for one task (3-14) on one subject (1-109):**
 
     ```bash
@@ -71,27 +79,27 @@ The following steps are performed:
     ```
 
 -   **Print accuracy of saved models:**
+
     ```bash
     python mybci.py stats
     ```
 
--  **Stream predictions for all tasks on one subject (1-109):**
+-   **Stream predictions for all tasks on one subject (1-109):**
     ```bash
     docker compose up -d
     python mybci.py --subject=<subject_number> predict_all
     ```
 
-
-
 ## Examples
 
 ### Beginning of the training
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/train.png"/>
 </p>
 
-
 ### Streaming of the predictions
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/ThePush/total-perspective-vortex/main/assets/predict.png"/>
 </p>
