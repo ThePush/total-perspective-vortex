@@ -39,7 +39,7 @@ The following steps are performed:
 1. Data preprocessing (filtering, downsampling, epoching)
 2. Feature extraction (FFT, CSP)
 3. Hyperparameters tuning (XGBoost, Random Forest, Logistic Regression, Linear Discriminant Analysis)
-4. Trying models on different intervals, with different festure extraction methods. Model selection with cross-validation and ensemble learning, best model is chosen based on accuracy (bucket of models method)
+4. Trying models on different intervals, with different feature extraction methods. Model selection with cross-validation and ensemble learning, best model is chosen based on accuracy (bucket of models method)
 5. Model training and saving
 6. Real-time prediction (Kafka integration with Docker)
 
